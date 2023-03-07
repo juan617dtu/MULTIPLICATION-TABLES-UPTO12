@@ -24,3 +24,11 @@ while i != num:
 j = i * num
 print("| {:<2d} X {:<2d} = {:<3d} |".format(i, num, j))
 print(" ---------------\n\n\n")
+
+
+'''
+    <	Left aligned to the remaining space
+    ^	Center aligned to the remaining space
+    >	Right aligned to the remaining space
+    =	Forces the signed (+) (-) to the leftmost position
+'''
